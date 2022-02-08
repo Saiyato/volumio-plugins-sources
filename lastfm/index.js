@@ -227,7 +227,7 @@ ControllerLastFM.prototype.addToBrowseSources = function () {
 		uri: 'lastfm', 
 		plugin_type: 'miscellanea', 
 		plugin_name: 'lastfm',
-		icon: 'fa fa-lastfm',
+		icon: 'fa-lastfm',
 		albumart: '/albumart?sourceicon=miscellanea/lastfm/lastfm_fill.svg'
 		};
     this.commandRouter.volumioAddToBrowseSources(data);
